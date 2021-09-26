@@ -7,7 +7,9 @@ import java.util.Scanner;
 
 /**
  * @author Nitin Sharma(A00248347):MAPD 
- *         This program allows a user to convert between different forms of measurement.
+ *         Lab 1 - Variables and Logic
+ *         This program allows a user to convert between different forms of measurements.
+ *         I have improvised this code to allow user to provide conversion inputs multiple time,so don't need to re-run the code.
  */
 public class Convert {
 
@@ -177,6 +179,7 @@ public class Convert {
 				}
 			}
 		} finally {
+			//closing the scanner.
 			input.close();
 		}
 
