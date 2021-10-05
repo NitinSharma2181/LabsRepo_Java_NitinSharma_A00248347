@@ -50,7 +50,7 @@ public class ArrayTools {
 				int arraySizeVar = input.nextInt();
 				float arrayElementsVar = 0;
 				float[] averageArrayConsoleVar = new float[arraySizeVar];
-                // Allow user to input elements of array		
+                               // Allow user to input elements of array		
 				for (int j = 0; j < arraySizeVar; j++) {
 					System.out.println("Provide array element:" + (j + 1) + " of your array: ");
 					arrayElementsVar = input.nextInt();
